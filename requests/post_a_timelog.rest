@@ -1,0 +1,11 @@
+@createdAt = {{$datetime iso8601}}
+
+post http://localhost:3000/api/timelog/
+Content-Type: application/json
+
+{
+  "duration": "15",
+  "start": "2012-03-19T07:22Z",
+  "end": "2012-03-19T08:22Z",
+  "category": "test"
+}
