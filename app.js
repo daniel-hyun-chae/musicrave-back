@@ -65,4 +65,7 @@ app.use("/auth", authController);
 const profileController = require("./controllers/profile");
 app.use("/api/profile", profileController);
 
+const searchController = require("./controllers/search");
+app.use("/api/search", searchController);
+
 module.exports = app;
